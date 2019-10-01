@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import PageTemplate from './components/PageTemplate'
+import Home from './components/PageTemplate'
 
 function App() {
   return (
     <div className="App">
-      <PageTemplate />
+      <Home />
     </div>
   );
 }

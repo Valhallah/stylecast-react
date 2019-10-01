@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 
-  class PageTemplate extends Component {
+  class Home extends Component {
     
     render() {
       return (
@@ -12,6 +12,6 @@ import React, {Component} from "react";
     };
   }
 
-export default(PageTemplate);
+export default(Home);
 
 
