@@ -132,6 +132,16 @@ module.exports = function(webpackEnv) {
     return loaders;
   };
 
+  // const json = require('./file.json');
+  // module: {
+  //   loaders: [
+  //     {
+  //       test: /\.json$/,
+  //       loader: 'json-loader'
+  //     }
+  //   ]
+  // }
+
   return {
     mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
     // Stop compilation early in production
@@ -648,3 +658,4 @@ module.exports = function(webpackEnv) {
     performance: false,
   };
 };
+

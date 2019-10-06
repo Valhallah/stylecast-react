@@ -11,7 +11,7 @@ import quiz from '../quizContent/quiz';
       return (
         <div>
           <h1>Blowoutlook Quiz</h1>
-
+          
           <Link to="/">
             <button>Home</button>
             </Link>
