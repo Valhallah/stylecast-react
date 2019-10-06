@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
       return (
         <div>
           <h1>Blowoutlook</h1>
-          <Link to="/quiz">
+          <Link to="/style-quiz">
             <button>
             take the quiz
             </button>

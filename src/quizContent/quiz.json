@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "question1": "Do you have hair?",
+            "question2": "What type of hair do you have?",
+        }
+    ],
+    "Answers": [
+        {
+            "answer1": "Try a hat?",
+            "answer2": "curly",
+            "answer3": "wavy",
+            "answer4": "straight"
+        }
+    ]
+}

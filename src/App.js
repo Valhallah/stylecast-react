@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.scss';
 import Home from './components/Home';
-import Quiz from './components/Quiz';
+import StyleQuiz from './components/StyleQuiz';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/quiz" component={Quiz} />
+        <Route path="/style-quiz" component={StyleQuiz} />
       </Switch>
     </Router>
     // <div>
